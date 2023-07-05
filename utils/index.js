@@ -26,6 +26,11 @@ const questions = [
     name:"Usage",
     message:"How will this app be used?"
 },
+{
+  type:"input",
+  name:"Media",
+  message:"What is the path to the image and/or video that you would like to add?",
+},
    {
     type:"input",
     name: "Credits",
@@ -48,7 +53,7 @@ const questions = [
   {
    type:"input",
    name:"Contributing",
-   message: "How can you contribute?"
+   message: "How can someone contribute?"
 },
   { 
     type:"input",

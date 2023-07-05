@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function generatereadMeContent(answers) {
-  const {ProjectName, Description, Usage, Credits, license, Contributing, Tests, GitHubUserName, Email } = answers;
+  const {ProjectName, Description, Usage, Media, Credits, license, Contributing, Tests, GitHubUserName, Email } = answers;
 
 function renderLicenseBadge(license) {
   const licenseBadges = {
@@ -68,6 +68,8 @@ For more info, please visit: [License Link](${licenseLink})
   const gitHubLink = `https://github.com/${answers.GitHubUserName}`;
 
   const emailLink = `<a href="mailto:${answers.Email}">${answers.Email}</a>`;
+
+  const mediaSection = answers.Media ? `![media](./${answers.Media})\n\n` : "";
   return `
   ${licenseBadge}
 
@@ -91,6 +93,7 @@ ${answers.Installation}
   
 ## Usage 
 ${answers.Usage}
+${mediaSection}
 
 ## Credits
 ${answers.Credits}
