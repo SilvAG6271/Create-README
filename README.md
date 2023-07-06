@@ -5,7 +5,7 @@
 
 
 ## Description
-Helps user to create README
+App to help the user to create a README.
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -16,29 +16,25 @@ Helps user to create README
 - [Tests](#Tests)
 - [Questions](#Questions)
 
-##Installation
-Install Node.js and inquirer
+## Installation
+Install Node.js and inquirer.
   
 ## Usage 
-User can create a professional README quickly and easily
-![media](./'c:/Users/auron/Create-README/utils/CreateREADME.png')
+User can create a professional README quickly and easily for all their projects.
+![image of VS code terminal](utils/CreateREADME.png)
         (https://drive.google.com/file/d/1ThXZ-iUw9sLAvO9bXdk_YzZ_gSZ2gFtb/view)
-
-
 
 ## Credits
 N/A
 
-
 ## License 
 For more info, please visit: [License Link](https://opensource.org/licenses/MIT)
-
 
 ## Contributing
 N/A
 
 ## Tests 
-N/A
+N/A at this time
 
 ## Questions 
 If you have any questions you can find me at [silvAG6271](https://github.com/silvAG6271) and <a href="mailto:auron7985@gmail.com">auron7985@gmail.com</a>.
