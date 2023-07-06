@@ -21,7 +21,7 @@ Install Node.js and inquirer
   
 ## Usage 
 User can create a professional README quickly and easily
-![image of VS code terminal](CreateREADME.png')
+![image of VS code terminal](utils/CreateREADME.png)
         (https://drive.google.com/file/d/1ThXZ-iUw9sLAvO9bXdk_YzZ_gSZ2gFtb/view)
 
 
